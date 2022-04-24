@@ -1,14 +1,14 @@
 package nl.roykersten.my_trading_bot_backend.repository;
 
-import nl.roykersten.my_trading_bot_backend.model.LatestCryptoData;
+import nl.roykersten.my_trading_bot_backend.model.DataModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface CallCryptoCurrencyApiRepository extends JpaRepository<LatestCryptoData, Long> {
+public interface CallCryptoCurrencyApiRepository extends JpaRepository<DataModel, Long> {
 
     //Methods
-    LatestCryptoData findById(long idCrypto);
-//    CryptoCurrency save(CryptoCurrency);
+    DataModel findById(long idLatestCryptoData);
+
 
 }

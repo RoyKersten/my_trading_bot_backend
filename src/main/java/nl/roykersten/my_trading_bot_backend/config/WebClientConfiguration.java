@@ -1,4 +1,4 @@
-package nl.roykersten.my_trading_bot_backend;
+package nl.roykersten.my_trading_bot_backend.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
